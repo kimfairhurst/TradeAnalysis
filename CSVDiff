@@ -43,7 +43,7 @@ public class CVSDiff {
 				Scanner scanner2 = new Scanner(secondInput);
 				scanner2.useDelimiter(",");
 				
-				// Read data from file
+				// Read data from second file
 				symbol2 = scanner2.next();
 				String temp2 = scanner2.next();
 				timeStamp2 = Long.parseLong(temp2);
