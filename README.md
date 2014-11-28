@@ -8,4 +8,4 @@ Analyzes trades by calculating AverageWeightedPrice, MaxTimeGap, Volume, MaxPric
 Stores data within a TreeMap for easy access, automatic sorting, and assurance of uniqueness across entries.
 Outputs to a "output.csv" with the format: <symbol>,<MaxTimeGap>,<Volume>,<WeightedAveragePrice>,<MaxPrice>
 
-CVSDiff - Given two .csv files formatted in the same way, compares the values (column-by-column and row-by-row), outputting a println statement whether or not there is a difference in values anywhere within the file.
+CVSDiff.java - Given two .csv files formatted in the same way, compares the values (column-by-column and row-by-row), outputting a println statement whether or not there is a difference in values anywhere within the file.
